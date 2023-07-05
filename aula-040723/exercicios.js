@@ -27,7 +27,7 @@
 
 
 // Temperatura de graus Celsius para Fahrenheit
-// let celsius = 4;
+// let celsius = 100;
 // let fahr = ((celsius * 9 / 5) + 32);
 // console.log(fahr);
 
