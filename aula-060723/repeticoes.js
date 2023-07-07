@@ -36,17 +36,17 @@
 //     console.log("SoulCode + Porto");
 // }
 
-let num = 693;
-let ePrimo = true;
-for(let i = 2; i < num; i++){
-    if (num % i == 0) {
-        ePrimo = false;
-    }
-}
+// let num = 693;
+// let ePrimo = true;
+// for(let i = 2; i < num; i++){
+//     if (num % i == 0) {
+//         ePrimo = false;
+//     }
+// }
 
-if (ePrimo) {
-    console.log("É primo");
-}
-else {
-    console.log("Não é primo!");
-}
+// if (ePrimo) {
+//     console.log("É primo");
+// }
+// else {
+//     console.log("Não é primo!");
+// }

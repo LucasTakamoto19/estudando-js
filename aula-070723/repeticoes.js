@@ -5,10 +5,13 @@ for(inicializacao; condicao; incrementacao){
 }
 
 // Uma quantidade indeterminada de repetições
-while(){
-
+while(condicao) {
+    // repeticao ...
 }
 */
+
+// console.log("TESTE 1");
+// console.log("TESTE 2");
 
 
 // Desenhe um quadradro de # na tela
