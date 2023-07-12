@@ -95,4 +95,16 @@ teste((numero) => {
 // 4° forma de executar "teste" (Função Arrow) - Modo 2
 teste(numero =>(numero * 2)); // pode-se omitir o "return" e as { } qnd há apenas uma instrução
 
-setTimeout(() => console.log("Olá, mundo"), 3000); // _ == () utiliza-se qnd não há parametros
+// setTimeout(() => console.log("Olá, mundo"), 3000); // _ == () utiliza-se qnd não há parametros
+
+// Recursividade => Chamada de uma função pela mesma função
+
+function fatorial(numero){
+    if (numero == 1) {
+        return 1;
+    }
+    return numero * fatorial(numero - 1);
+}
+
+console.log(fatorial(4));
+console.log(fatorial(6));
