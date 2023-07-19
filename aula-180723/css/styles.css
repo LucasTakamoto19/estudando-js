@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.erro {
+    padding: 20px;
+    border: 2px solid #c62f2f;
+}
