@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Tarefas</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Prioridade</th>
+                <th>Status</th>
+                <th>Prazo</th>
+                <th>Apagar</th>
+                <th>Concluido?</th>
+            </tr>
+        </thead>
+        <tbody id="table-tarefas">
+
+        </tbody>
+    </table>
+
+    <br>
+    <hr/>
+    
+
+    <h2>Adicionar Tarefas</h2>
+
+    <form id="form-tarefa">
+        <fieldset>
+            <legend>Formulario</legend>
+
+            <label for="descricao">Descrição</label>
+            <textarea name="descricao" id="descricao" cols="30" rows="10"></textarea>
+            <label for="prioridade">Prioridade</label>
+            <input type="text" id="prioridade" name="prioridade">
+            <label for="status">Status</label>
+            <input type="text" id="status" name="status">
+            <label for="prazo">Prazo</label>
+            <input type="date" id="prazo">
+            <button type="button">Enviar</button> 
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
